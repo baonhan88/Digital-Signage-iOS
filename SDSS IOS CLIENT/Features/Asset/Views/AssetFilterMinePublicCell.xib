@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G1710" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AssetFilterMinePublicCell" id="KGk-i7-Jjw" customClass="AssetFilterMinePublicCell" customModule="Cublick" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="667" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="667" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gti-uc-ppS">
+                        <rect key="frame" x="0.0" y="0.0" width="333.5" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ql-kw-vpg">
+                                <rect key="frame" x="16" y="12" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cGI-2w-alD">
+                                <rect key="frame" x="268.5" y="7" width="51" height="31"/>
+                                <connections>
+                                    <action selector="mineSwitchChanged:" destination="KGk-i7-Jjw" eventType="valueChanged" id="AKd-AG-qjn"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="cGI-2w-alD" firstAttribute="centerY" secondItem="Gti-uc-ppS" secondAttribute="centerY" id="0kl-Bc-bjt"/>
+                            <constraint firstItem="5ql-kw-vpg" firstAttribute="leading" secondItem="Gti-uc-ppS" secondAttribute="leading" constant="16" id="T2c-iK-tO5"/>
+                            <constraint firstAttribute="trailing" secondItem="cGI-2w-alD" secondAttribute="trailing" constant="16" id="VoL-Xo-LqS"/>
+                            <constraint firstItem="5ql-kw-vpg" firstAttribute="centerY" secondItem="Gti-uc-ppS" secondAttribute="centerY" id="umH-uJ-Vlg"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="|" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5I-me-CLK">
+                        <rect key="frame" x="333.5" y="12" width="5.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EKW-0I-c2f">
+                        <rect key="frame" x="339" y="0.0" width="328" height="43.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SV8-1E-hLd">
+                                <rect key="frame" x="16" y="12" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9bI-iK-3wp">
+                                <rect key="frame" x="263" y="6.5" width="51" height="31"/>
+                                <connections>
+                                    <action selector="publicSwitchChanged:" destination="KGk-i7-Jjw" eventType="valueChanged" id="Orf-ng-1MW"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="9bI-iK-3wp" secondAttribute="trailing" constant="16" id="KXn-MO-IOn"/>
+                            <constraint firstItem="SV8-1E-hLd" firstAttribute="leading" secondItem="EKW-0I-c2f" secondAttribute="leading" constant="16" id="PwN-zy-KiR"/>
+                            <constraint firstItem="SV8-1E-hLd" firstAttribute="centerY" secondItem="EKW-0I-c2f" secondAttribute="centerY" id="jXG-gi-CRH"/>
+                            <constraint firstItem="9bI-iK-3wp" firstAttribute="centerY" secondItem="EKW-0I-c2f" secondAttribute="centerY" id="wk5-bo-SKm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Gti-uc-ppS" secondAttribute="bottom" id="1Lo-oy-RGi"/>
+                    <constraint firstItem="Gti-uc-ppS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6x7-2L-uGe"/>
+                    <constraint firstItem="d5I-me-CLK" firstAttribute="leading" secondItem="Gti-uc-ppS" secondAttribute="trailing" id="BG3-IF-gw3"/>
+                    <constraint firstItem="d5I-me-CLK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="JZJ-r3-uqA"/>
+                    <constraint firstItem="EKW-0I-c2f" firstAttribute="leading" secondItem="d5I-me-CLK" secondAttribute="trailing" id="MhL-rm-Fam"/>
+                    <constraint firstAttribute="trailing" secondItem="EKW-0I-c2f" secondAttribute="trailing" id="OyY-aC-XFD"/>
+                    <constraint firstAttribute="bottom" secondItem="EKW-0I-c2f" secondAttribute="bottom" id="gB0-pC-YxV"/>
+                    <constraint firstItem="Gti-uc-ppS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="kgl-rz-AZM"/>
+                    <constraint firstItem="EKW-0I-c2f" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="oPN-TL-gGU"/>
+                    <constraint firstItem="Gti-uc-ppS" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="1/2" id="yAC-d5-DMI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="mineLabel" destination="5ql-kw-vpg" id="95v-IV-76E"/>
+                <outlet property="mineSwitch" destination="cGI-2w-alD" id="1Lc-nT-9WO"/>
+                <outlet property="mineView" destination="Gti-uc-ppS" id="Jb4-DQ-9JK"/>
+                <outlet property="publicLabel" destination="SV8-1E-hLd" id="Gin-YK-ZuS"/>
+                <outlet property="publicSwitch" destination="9bI-iK-3wp" id="ZwQ-1m-kOK"/>
+                <outlet property="publicView" destination="EKW-0I-c2f" id="E8X-TV-i8x"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

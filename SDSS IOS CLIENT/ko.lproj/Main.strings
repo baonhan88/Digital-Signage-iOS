@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "2"; ObjectID = "5FL-y6-C9M"; */
+"5FL-y6-C9M.text" = "2";
+
+/* Class = "UILabel"; text = "Presentation"; ObjectID = "828-om-7fh"; */
+"828-om-7fh.text" = "Presentation";
+
+/* Class = "UIButton"; normalTitle = "Not a member? Sign up now"; ObjectID = "8Pk-rX-EAU"; */
+"8Pk-rX-EAU.normalTitle" = "Not a member? Sign up now";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "DPK-1Q-4q9"; */
+"DPK-1Q-4q9.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Sign in with facebok"; ObjectID = "DSm-U1-N4w"; */
+"DSm-U1-N4w.normalTitle" = "Sign in with facebok";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "OMa-zN-6Ww"; */
+"OMa-zN-6Ww.text" = "4";
+
+/* Class = "UILabel"; text = "LIBRARY"; ObjectID = "QKA-Va-Oxj"; */
+"QKA-Va-Oxj.text" = "LIBRARY";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "UgN-70-VNN"; */
+"UgN-70-VNN.text" = "1";
+
+/* Class = "UILabel"; text = "Playlist"; ObjectID = "WTm-xe-W4K"; */
+"WTm-xe-W4K.text" = "Playlist";
+
+/* Class = "UILabel"; text = "IM"; ObjectID = "Z1i-Hr-X6L"; */
+"Z1i-Hr-X6L.text" = "IM";
+
+/* Class = "UILabel"; text = "Schedule"; ObjectID = "ZMf-mo-ccE"; */
+"ZMf-mo-ccE.text" = "Schedule";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "d2S-e0-AZQ"; */
+"d2S-e0-AZQ.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "dGY-jH-07E"; */
+"dGY-jH-07E.text" = "3";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "hcL-7G-xDd"; */
+"hcL-7G-xDd.text" = "OR";
+
+/* Class = "UIButton"; normalTitle = "Sign in with twitter"; ObjectID = "j2h-4S-nnR"; */
+"j2h-4S-nnR.normalTitle" = "Sign in with twitter";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "oes-C6-Q86"; */
+"oes-C6-Q86.normalTitle" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Sign in with google+"; ObjectID = "qEP-zN-o2P"; */
+"qEP-zN-o2P.normalTitle" = "Sign in with google+";
+
+/* Class = "UILabel"; text = "Device"; ObjectID = "uSx-Ks-ma2"; */
+"uSx-Ks-ma2.text" = "Device";

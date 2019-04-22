@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (4.5.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - CocoaAsyncSocket (7.6.1)
+  - DateToolsSwift (2.0.3)
+  - DZNEmptyDataSet (1.8.1)
+  - EVReflection (4.16.3):
+    - EVReflection/Core (= 4.16.3)
+  - EVReflection/Core (4.16.3)
+  - IQKeyboardManagerSwift (4.0.9)
+  - SVProgressHUD (2.1.2)
+  - SwiftyJSON (3.1.4)
+  - WRCalendarView (1.0.1):
+    - DateToolsSwift
+  - Zip (0.7.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireImage (~> 3.1)
+  - CocoaAsyncSocket
+  - DZNEmptyDataSet
+  - EVReflection
+  - IQKeyboardManagerSwift (= 4.0.9)
+  - SVProgressHUD
+  - SwiftyJSON
+  - WRCalendarView (= 1.0.1)
+  - Zip (~> 0.7)
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  DateToolsSwift: bf69bf9056d9e53c5c03f06e51f219b9b8b02f9e
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EVReflection: 78a60b3c628a2e765652cdc554a903a3e40b16c8
+  IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  WRCalendarView: 80051cb13087892eac70edf2028664cae7bae718
+  Zip: e34513299ac38c0686d5b24504da7ce343799ab9
+
+PODFILE CHECKSUM: 22bd715ab1797d4f90632cdf2cee0d923d5bfbe2
+
+COCOAPODS: 1.2.1
